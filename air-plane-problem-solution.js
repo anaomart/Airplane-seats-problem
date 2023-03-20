@@ -1,8 +1,8 @@
 function AirplaneSeats(seats, passengers) {
-    const totalSeats = seats.reduce((acc, [rows, cols]) => acc + rows * cols, 0);
-    if(totalSeats < passengers) {
-        return "There is no enough space"
-    }
+//     const totalSeats = seats.reduce((acc, [rows, cols]) => acc + rows * cols, 0);
+//     if(totalSeats < passengers) {
+//         return "There is no enough space"
+//     }
     const seatsSize = seats.length;
     const plane = []
     let counter = 1;
